@@ -1,0 +1,165 @@
+/* This gets added to the top all css files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the header and main with a navy-blue background and add some padding */
+.header,
+.header-main {
+  overflow: hidden;
+  background-color: #1f2937;
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: #f9faf8;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 5px;
+  transition-duration: 0.3s;
+}
+
+/* Style the logo link (notice that it's set the same value of line-height and font-size to prevent the header to increase when the font gets bigger) */
+.header a.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Change the background color when cursor hovers over the links */
+.header a:hover {
+  background-color: #c4c4c4;
+  color: #1f2937;
+}
+
+/* Style the active/current link */
+.header a.active {
+  background-color: #ddd;
+  color: #1f2937;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Style the main text */
+.header-main h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: extra-bold;
+}
+
+/* Style subtext of main */
+.header-main p {
+  color: #e5e7eb;
+}
+
+/* Style button */
+.header-main button {
+  background-color: #3882f6;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 4px;
+  transition-duration: 0.3s;
+}
+
+/* Changes the background color when cursor hovers over button */
+.header-main button:hover {
+  background-color: #f9faf8;
+  color: black;
+}
+
+/* Style information header text */
+.header-center h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: extra-bold;
+  text-align: center;
+}
+
+/* Move boxes from vertical position to horizontal position and move text to center of boxes */
+.container {
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: stretch;
+  padding: 20px 10px;
+}
+
+/* Moves the text under and outside the boxes */
+.box-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Style the boxes */
+.box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #3882f6;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+/* Style the quote background */
+.quote {
+  background-color: #e5e7eb;
+  padding: 30px 30px;
+}
+
+/* Style quote text */
+.quote p {
+  color: #1f2937;
+  font-size: 19px;
+}
+
+/* Style call-to-action */
+.call-to-action {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
+  padding: 50px 40px;
+}
+
+/* Make gap between h4 and p tags */
+.action {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 10px;
+}
+
+/* Style call-to-action button */
+.call-to-action button {
+  background-color: #3882f6;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 4px;
+  transition-duration: 0.3s;
+}
+
+/* Changes the background color when cursor hovers over button */
+.call-to-action button:hover {
+  background-color: #f9faf8;
+  color: black;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 2px 2px;
+  text-align: center;
+}
